@@ -28,7 +28,7 @@ class AppBar extends HTMLElement {
         <ul class="navlistmobile">
           <li class="navitemsmobile"><a href="#/main-menu">Home</a></li>
           <li class="navitemsmobile"><a href="#/favorite">Favorite</a></li>
-          <li class="navitemsmobile"><a href="https://www.instagram.com/daf_fak/" target="_blank">About Us</a></li>
+          <li class="navitemsmobile"><a href="https://github.com/daffanaufal/Restaurant-apps3" target="_blank">About Us</a></li>
         </ul>
       </nav>
 
@@ -44,7 +44,7 @@ class AppBar extends HTMLElement {
         <ul class="navlist">
           <li class="navitems"><a href="#/main-menu">Home</a></li>
           <li class="navitems"><a href="#/favorite">Favorite</a></li>
-          <li class="navitems"><a href="https://www.instagram.com/daf_fak/" target="_blank">About Us</a></li>
+          <li class="navitems"><a href="https://github.com/daffanaufal/Restaurant-apps3" target="_blank">About Us</a></li>
         </ul>
       </nav>
 
