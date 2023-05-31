@@ -53,6 +53,7 @@
   "dependencies": {
     "lazysizes": "^5.3.2",
     "regenerator-runtime": "^0.13.9",
+    "shelljs": "^0.8.5",
     "workbox-window": "^6.5.4"
   }
 }
