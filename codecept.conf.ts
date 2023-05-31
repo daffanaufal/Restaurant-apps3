@@ -9,7 +9,7 @@ export const config: CodeceptJS.MainConfig = {
   output: 'e2e/outputs',
   helpers: {
     Puppeteer: {
-      url: 'http://127.0.0.1:9000',
+      url: 'http://localhost:9000/',
       show: true,
       windowSize: '1200x900',
       chrome: {
