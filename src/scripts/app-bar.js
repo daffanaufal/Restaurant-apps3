@@ -36,8 +36,8 @@ class AppBar extends HTMLElement {
       <nav class="nav">
         <a class="logo" href="">
         <picture>
-        <source media="(max-width: 600px)" type="image/webp" srcset="./images/Logo.webp">
-        <source media="(max-width: 600px)" type="image/jpeg" srcset="./images/Logo.jpg">
+        <source type="image/webp" srcset="./images/Logo.webp">
+        <source type="image/jpeg" srcset="./images/Logo.jpg">
           <img src="./images/Logo.jpg" width="8%" alt="Logo">
           </picture>
         </a>
@@ -49,16 +49,14 @@ class AppBar extends HTMLElement {
       </nav>
 
       <!-- Jumbotron -->
-      <picture>
-        <source type="image/webp" srcset="images/heros/hero-image_2.webp">
-        <source type="image/jpeg" srcset="images/heros/hero-image_2.jpg">
-          </picture>
-      <div class="hero" style="background-image: linear-gradient(rgba(2, 2, 9, 0.8), rgba(2, 2, 9, 0.8)), url('images/heros/hero-image_2.webp'); background-repeat: no-repeat; background-size: auto;">
+      <div class="hero">
         <div class="inner-hero">
           <h1 class="judul-hero">Resto finder <span style="font-size: 12px;">by Mangan</span></h1>
           <p class="subjudul-hero">Temukan restoran terbaik di kota anda.</p>
         </div>
-      </div>`;
+      </div>
+
+        `;
   }
 }
 

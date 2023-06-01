@@ -492,3 +492,22 @@ footer > p {
 	  margin: 10px 20px;
 	}
   }
+  
+  @media screen and (min-width: 651px) {
+	.hero {
+	  background-image: linear-gradient(rgba(2, 2, 9, 0.8), rgba(2, 2, 9, 0.8)), url('../public/images/heros/hero-image_2.jpg');
+	  background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+	}
+  }
+  
+  @media screen and (max-width: 650px) {
+	.hero {
+	  background-image: linear-gradient(rgba(2, 2, 9, 0.8), rgba(2, 2, 9, 0.8)), url('../public/images/heros/hero-image_2_small.jpg');
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: center;
+	}
+  }
+  
